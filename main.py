@@ -1,22 +1,3 @@
-# task 1.1 Make Class(Library) with attributes:
-# booksList
-# name of library
-# lent books (name of user, book)
-# task 1.2 Make method to display available Books.
-# task 1.3 Make method for books lending.
-# Don't forget to check if book isn't already lent
-# task 1.4 Make method to add Book to library.
-# task 1.5 Make method to return borrowed book.
-# task 2.1 Make object(Harry) with attributes:
-# booksList = ['Python', 'Rich Daddy Poor Daddy', 'Harry Potter', 'C++ Basics', 'Algorithms by CLRS']
-# name of library = "CodeWithHarry"
-# task 2.2 Make program run with those choices. (Don't forget the welcome message)
-# Display Books
-# Lend a Book
-# Add a Book
-# Return a Book
-# task 2.3 Make program ends or continue.
-
 class Library:
     def __init__(self, list_of_books, library_name):
         if type(list_of_books) == list:
